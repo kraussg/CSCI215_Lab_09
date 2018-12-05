@@ -1,7 +1,7 @@
 # CSCI215_Lab_09
 Ajax and Node.js lab
 
-Name: _______________________________________
+Name: Gabby Krauss
 
 ## DUE: 4 Dec 2018 @ 11:59 pm
 
