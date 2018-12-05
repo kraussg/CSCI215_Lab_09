@@ -11,6 +11,9 @@ app.use(bodyParser.urlencoded({
 var path = require("path");
 
 
+app.use(express.static("public"));
+
+
 //app.get('/', function (req, res) {
 //    res.send('Hello World!');
 //});
@@ -34,3 +37,11 @@ app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
 });
 
+
+function fullName() {
+    var firstname = document.getElementById("firstname");
+    var lastname = document.getElementById("lastname");
+    var fullName = (firstname + " "+ lastname);
+    console.log("fullName: " + fullName);
+
+}
